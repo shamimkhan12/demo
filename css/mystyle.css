@@ -1,0 +1,19 @@
+#modal_blk
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000045;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modal_blk > div
+{
+    background: #fff;
+    max-width: 400px;
+    width: 100%;
+    min-height: 300px;
+}
